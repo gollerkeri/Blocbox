@@ -68,6 +68,15 @@ html, body{
    }
  }
 
+ @media tv and (orientation: landscape) {
+   header .hero{
+      font-size: 44px;
+      line-height: 48px;
+      font-weight: 150;
+      margin: 20px 0 80px;
+   }
+ }
+
  /* HEADER */
  header {
    color:#FFFFFF;
