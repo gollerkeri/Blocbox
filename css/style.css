@@ -286,7 +286,6 @@ html, body{
    border-width: 10px;
    margin-left: -10px;
  }
-
  .testimonials img {
    height: 65px;
    width: 65px;
@@ -300,68 +299,29 @@ html, body{
    display: inline-block;
    text-align: left;
    font-size:13px;
-   margin-top: 30px;
+   margin-top: 20px;
  }
-
-
-/* TESTIMONIALS-EVEN */
- .testimonials-even {
-   padding:4em 0;
+ .offset{
+   position:relative;
+   top:20px;
+ }
+ /*CALL TO ACTIOM */
+ section .action{
    text-align: center;
- }
- .testimonials-even h2 {
-   color:#975683;
- }
- .testimonials-even ul li {
-   list-style-type: none;
- }
- .testimonials-even blockquote {
-   color:#FFFFFF;
-   text-align: left;
-   font-style: italic;
-   background:#975683;
+   display:block;
    position: relative;
-   padding:60px;
-   width:auto;
-   margin:0;
+   margin-bottom:150px;
+   padding-bottom:50px;
+   border:solid 2px #975683;
  }
- .testimonials-even blockquote:after {
-   top: 100%;
-   left: 13%;
-   border: solid transparent;
-   content: " ";
-   height: 0;
-   width: 0;
-   position: absolute;
-   pointer-events: none;
-   border-top-color: #975683;
-   border-width: 10px;
-   margin-left: -10px;
+ .action p{
+   padding-bottom:20px;
  }
-
- .testimonials-even img {
-   height: 65px;
-   width: 65px;
-   border-radius:50%;
-   float: left;
-   display: inline-block;
-   margin:20px 10px 0 0;
- }
- .testimonials-even p.name {
-   float: left;
-   display: inline-block;
-   text-align: left;
-   font-size:13px;
-   margin-top: 30px;
- }
-
-/* FOOTER */
+  /* FOOTER */
  footer {
    background-color: #975683;
-   /*background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%); */
    color: #FFFFFF;
-   height: 200px;
+   height: 150px;
    position: relative;
    overflow: hidden;
    z-index: 0;
@@ -392,20 +352,16 @@ html, body{
  @media (min-width: 992px){
    footer{
      background-color: #975683;
-     /*background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);*/
-     height: 200px;
+     height: 160px;
    }
    footer p, footer nav ul{
-     padding: 2em 0;
+     padding: 1em 0;
      text-align: left;
    }
    footer .right-footer-block {
      background-color: #975683;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: 1em 0 1em 0.5em;
    }
  }
-
-
