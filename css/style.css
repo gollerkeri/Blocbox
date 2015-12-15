@@ -373,7 +373,7 @@ html, body{
  .left-nav {
    height: 100%;
    width: 280px;
-   /*color:#FFFFFF;
+   /*color:#FFFFFF; */
    background: #975683;
    /*background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%); */
    /*float:left;
@@ -406,7 +406,7 @@ html, body{
  .hamburger {
    position:absolute;
    z-index: 1000;
-   background:#34495E;
+   background:#975683;
    color:#FFF;
    text-decoration: none;
    font-size: 22px;
